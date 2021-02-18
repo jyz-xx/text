@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			//方法一 字面量
+			const obj1 = {
+				name: 'zs',
+				age: 18
+			}
+			console.log(obj1)
+
+			// 方法二  new Object()
+			const obj2 = new Object()
+			obj2.name = 'ls'
+			obj2.age = 18
+			console.log(obj2)
+
+			// 方法3 构造函数创建对象
+			function Obj3(name, age) {
+				this.name = name
+				this.age = age
+			}
+			const obj = new Obj3('ww', 20)
+			console.log(obj)
+		</script>
+	</body>
+</html>
