@@ -1,0 +1,161 @@
+body {
+	min-width: 320px;
+	max-width: 750px;
+	width: 10rem;
+	margin: 0 auto;
+	background-color: #fff;
+	// height: 18.333rem;
+	font-size: 0.32rem;
+	font-family: PingFang SC-Medium, PingFang SC-Medium-SC-Medium;
+	font-weight: 350;
+	color: #666;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+img {
+	display: block;
+	width: 100%;
+}
+@media screen and(min-width:750px) {
+	html {
+		font-size: 75px;
+	}
+}
+@media screen and(max-width:320px) {
+	html {
+		font-size: 32px;
+	}
+}
+.logo {
+	position: relative;
+	padding-top: 10px;
+	width: 10rem;
+	height: 4.08rem;
+	background: url(../images/logo.png) no-repeat;
+	background-size: cover;
+	.status {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		img {
+			width: 9.68rem;
+			height: 0.253rem;
+		}
+	}
+	.avatar {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		top: 1.907rem;
+		left: 0.8rem;
+		// background-color: pink;
+		img {
+			width: 1.307rem;
+			height: 1.307rem;
+		}
+		span {
+			margin-left: 0.333rem;
+			font-size: 0.48rem;
+			color: #fff;
+		}
+	}
+}
+.discounts {
+	width: 100%;
+	height: 2.773rem;
+	display: flex;
+	align-items: center;
+	a {
+		flex: 25%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 0.32rem;
+		letter-spacing: 0.05em;
+
+		img {
+			width: 1.067rem;
+		}
+	}
+}
+.cross-line {
+	width: 100%;
+	height: 0.267rem;
+	background-color: #f9f9f9;
+}
+.nav {
+	margin-bottom: 0.667rem;
+	.nav-title {
+		padding-top: 0.667rem;
+		padding-left: 0.4rem;
+		margin-bottom: 0.267rem;
+		h4 {
+			font-family: PingFang SC-Bold;
+			font-size: 0.4rem;
+			color: #333;
+		}
+	}
+	.nav-item {
+		display: flex;
+		flex-wrap: wrap;
+		a {
+			flex: 25%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			font-size: 0.32rem;
+			margin-top: 0.4rem;
+			img {
+				width: 0.8rem;
+				margin-bottom: 0.4rem;
+			}
+		}
+	}
+}
+.cross-line1 {
+	width: 100%;
+	height: 0.08rem;
+	background-color: #f9f9f9;
+}
+.banner {
+	display: flex;
+	padding: 0.48rem 0.32rem;
+	// background-color: pink;
+	a {
+		width: 4.48rem;
+		height: 2.533rem;
+		display: inline-block;
+		margin: 0 0.107rem;
+	}
+}
+.footer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 1.333rem;
+	border-top: 1px solid #b2b2b2;
+	// background-color: pink;
+	a {
+		flex: 25%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 0.267rem;
+		&:hover {
+			color: #ff7200;
+		}
+		img {
+			width: 0.613rem;
+			height: 0.613rem;
+			margin-bottom: 0.16rem;
+		}
+	}
+}
